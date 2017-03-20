@@ -26,7 +26,7 @@ define Package/ecryptfs-utils
 	SUBMENU:=Filesystem
 	TITLE:=eCryptfs utilities
 	URL:=http://ecryptfs-utils.sourceforge.net/
-	DEPENDS:=+kmod-fs-ecryptfs +keyutils +libgpg-error +libpam @BROKEN
+	DEPENDS:=+kmod-fs-ecryptfs +libcc +keyutils +libgpgme +libgpg-error +libpam
 endef
 
 define Package/ecryptfs-utils/description
