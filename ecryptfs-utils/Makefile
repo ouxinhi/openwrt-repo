@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ecryptfs-utils
-PKG_VERSION:=103
+PKG_VERSION:=111
 PKG_RELEASE:=2
 
 PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).orig.tar.gz
 PKG_SOURCE_URL:=https://launchpad.net/ecryptfs/trunk/$(PKG_VERSION)/+download/
-PKG_MD5SUM:=39929d850edd24b175ff0c82722e0de1
+PKG_MD5SUM:=83513228984f671930752c3518cac6fd
 
 PKG_FIXUP:=libtool
 PKG_INSTALL:=1
